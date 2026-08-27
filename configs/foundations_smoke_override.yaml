@@ -1,0 +1,5 @@
+foundations_smoke:
+  forecast_horizon_hours: 2
+  feature_families:
+    - local
+    - network

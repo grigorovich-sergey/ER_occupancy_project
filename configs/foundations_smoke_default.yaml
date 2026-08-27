@@ -1,0 +1,9 @@
+foundations_smoke:
+  installation_id: "synthetic_001"
+  forecast_origin: "2025-03-09T01:00"
+  timezone: "America/Toronto"
+  history_window_hours: 6
+  forecast_horizon_hours: 1
+  target_type: "absolute_occupancy"
+  feature_families:
+    - local
