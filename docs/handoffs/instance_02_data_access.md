@@ -173,7 +173,8 @@ They should add their own provenance/eligibility only after this observed table.
 ## Git
 
 - Branch: `instance-02-data-access`
-- Commit: pending final verification
+- Implementation commit: `c3e45f5` (`Add standardized ED data access layer`)
 - Draft PR: pending; the selected GitHub integration returned HTTP 403 when
   asked to create the branch remotely
-- Status: local implementation complete; publication access unresolved
+- Status: local implementation and verification complete; publication access
+  unresolved because neither the integration nor the clone has a write credential
