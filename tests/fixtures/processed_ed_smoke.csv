@@ -1,0 +1,4 @@
+noInstallation,nomInstallation,Nbre civières fonctionnelles,Nbre patients présents,Nbre patients présents sur civière,Nbre patients présents sur civière plus de 24h,Nbre patients présents sur civière plus de 48h,DMS sur civière la veille,DMS ambulatoire la veille,Nbre patients présents en attente de prise en charge,tauxocc,date,heure
+00123,Hôpital Déterministe,10,14,8,2,1,12.5,4.0,3,80.0,2024-01-01,00:00
+00123,Hôpital Déterministe,10,15,9,2,1,12.5,4.0,4,,2024-01-01,01:00
+00999,Autre installation,20,10,5,0,0,8.0,3.5,1,25.0,2024-01-01,00:00
