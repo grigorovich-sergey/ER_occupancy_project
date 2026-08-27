@@ -1,0 +1,21 @@
+# Parsing choices are deliberately unset until established by the processed files
+# or explicit source documentation. Scenario configs replace these null values.
+files: []
+parser:
+  encoding: null
+  delimiter: null
+  date_format: null
+  hour_format: null
+  decimal_mark: null
+  missing_values:
+    - ""
+  timezone: null
+  chunk_size: null
+subset:
+  installation_ids: []
+  start_local_time: null
+  end_local_time: null
+output:
+  standardized_csv: null
+  manifest_json: null
+  resolved_config: null

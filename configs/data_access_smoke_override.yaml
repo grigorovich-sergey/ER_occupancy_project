@@ -1,0 +1,20 @@
+files:
+  - path: tests/fixtures/processed_ed_smoke.csv
+    logical_name: synthetic-pre-2026-smoke
+    fiscal_period: "2024-2025"
+    source_era: legacy_merged_csv
+    occupancy_rate_origin: reported
+    identity_origin: native_legacy
+parser:
+  encoding: utf-8
+  delimiter: ","
+  date_format: "%Y-%m-%d"
+  hour_format: "%H:%M"
+  decimal_mark: "."
+  timezone: America/Toronto
+  chunk_size: 2
+subset:
+  installation_ids:
+    - "00123"
+  start_local_time: "2024-01-01 00:00"
+  end_local_time: "2024-01-01 01:00"

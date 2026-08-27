@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "er-occupancy"
 version = "0.1.0"
-description = "Research foundations for Quebec emergency-department occupancy forecasting"
+description = "Research software for Quebec emergency-department occupancy forecasting"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
@@ -13,6 +13,7 @@ authors = [
   { name = "Sergey Grigorovich" },
 ]
 dependencies = [
+  "pandas>=2,<3",
   "PyYAML>=6,<7",
   "tzdata>=2024.1; platform_system == 'Windows'",
 ]
@@ -24,6 +25,7 @@ dev = [
 
 [project.scripts]
 er-occupancy-foundations-smoke = "er_occupancy.foundations.smoke:main"
+er-occupancy-data-access-smoke = "er_occupancy.data_access.smoke:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
