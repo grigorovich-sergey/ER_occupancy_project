@@ -107,4 +107,6 @@ runs persist their resolved config.
 ## Git
 
 - Branch: `instance-01-foundations`
-- Commit and PR details: to be added after verification and publication.
+- Implementation commit: `a7bffa4` (`Establish shared foundations and contracts`)
+- Draft PR: [#1 — Establish shared foundations and contracts](https://github.com/grigorovich-sergey/ER_occupancy_project/pull/1)
+- Status: open for user review; not merged.
